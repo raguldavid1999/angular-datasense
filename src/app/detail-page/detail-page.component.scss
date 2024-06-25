@@ -1,0 +1,14 @@
+.details-page {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  .detail-row {
+    display: flex;
+    align-items: center;
+    p {
+      &:first-child {
+        width: 200px;
+      }
+    }
+  }
+}

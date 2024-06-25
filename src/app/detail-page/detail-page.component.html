@@ -1,0 +1,47 @@
+<div class="details-page">
+  <div class="detail-row">
+    <p>N ID</p>
+    <p>:&nbsp;&nbsp;&nbsp;{{ receivedRouteData.n_id }}</p>
+  </div>
+  <div class="detail-row">
+    <p>Brand</p>
+    <p>:&nbsp;&nbsp;&nbsp;{{ receivedRouteData.BRAND }}</p>
+  </div>
+  <div class="detail-row">
+    <p>B Size</p>
+    <p>:&nbsp;&nbsp;&nbsp;{{ receivedRouteData.BSIZE }}</p>
+  </div>
+  <div class="detail-row">
+    <p>Description</p>
+    <p>:&nbsp;&nbsp;&nbsp;{{ receivedRouteData.DESC_FULL }}</p>
+  </div>
+  <div class="detail-row">
+    <p>Focus end</p>
+    <p *ngIf="receivedRouteData.FOCUS_END != null">
+      :&nbsp;&nbsp;&nbsp;{{ receivedRouteData.FOCUS_END | date }}
+    </p>
+    <p *ngIf="receivedRouteData.FOCUS_END == null">
+      :&nbsp;&nbsp;&nbsp;{{ "-" }}
+    </p>
+  </div>
+  <div class="detail-row">
+    <p>Launce Date</p>
+    <p>:&nbsp;&nbsp;&nbsp;{{ receivedRouteData.LAUNCEDATE | date }}</p>
+  </div>
+  <div class="detail-row">
+    <p>Matnr</p>
+    <p>:&nbsp;&nbsp;&nbsp;{{ receivedRouteData.MATNR }}</p>
+  </div>
+  <div class="detail-row">
+    <p>Model</p>
+    <p>:&nbsp;&nbsp;&nbsp;{{ receivedRouteData.MODEL }}</p>
+  </div>
+  <div class="detail-row">
+    <p>Segment</p>
+    <p>:&nbsp;&nbsp;&nbsp;{{ receivedRouteData.SEGMENT }}</p>
+  </div>
+  <div class="detail-row">
+    <p>Speed</p>
+    <p>:&nbsp;&nbsp;&nbsp;{{ receivedRouteData.SPEED }}</p>
+  </div>
+</div>

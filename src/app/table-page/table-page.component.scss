@@ -1,0 +1,45 @@
+table {
+  width: 100%;
+}
+.mat-elevation-z8 {
+  width: 100%;
+  overflow: auto;
+}
+.table-div {
+  padding: 20px;
+}
+.eye-icon {
+  cursor: pointer;
+  width: 30px;
+}
+.multi-select-element {
+  display: block;
+  width: 200px;
+}
+::ng-deep .clear-all {
+  display: none;
+}
+::ng-deep .selected-list .c-btn {
+  border: 1px solid #000;
+  border-radius: 10px;
+}
+.search-sort-div {
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  padding: 30px;
+  align-items: center;
+  .search-input-div {
+    position: relative;
+    img {
+      position: absolute;
+      right: 10px;
+      top: 8px;
+      cursor: pointer;
+    }
+    input {
+      padding: 10px 30px 10px 10px;
+      border-radius: 10px;
+    }
+  }
+}

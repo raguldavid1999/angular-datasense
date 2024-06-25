@@ -1,0 +1,11 @@
+{
+  "/api": {
+    "target": "https://sfa-hero.herocycles.com",
+    "secure": false,
+    "changeOrigin": true,
+    "logLevel": "debug",
+    "pathRewrite": {
+      "^/api": ""
+    }
+  }
+}
